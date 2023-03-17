@@ -41,6 +41,16 @@ body {
   border-radius: 20px;
   background-color: #fff;
   overflow: hidden;
+  animation: scaleIn 0.2s forwards;
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 .card__banner {
